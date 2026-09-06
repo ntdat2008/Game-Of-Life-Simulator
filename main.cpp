@@ -13,7 +13,7 @@ int main() {
     data.window.setFramerateLimit(60);
 
     sf::Image windowLogo;
-    if (windowLogo.loadFromFile("assets/logo.png")) {
+    if (windowLogo.loadFromFile("assets/logo/logo.png")) {
         data.window.setIcon(windowLogo.getSize(), windowLogo.getPixelsPtr());
     }
     #pragma endregion
